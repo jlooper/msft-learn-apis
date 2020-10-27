@@ -21,7 +21,7 @@
 
 ## Summary
 
-*In this module, you will learn about APIs, the "Application Programming Interfaces" that act like the 'handshake' between a web site's frontend and backend, with specific focus on RESTful APIs. You will first create a simple local API with a .json file and then query two external APIs (OpenWeatherMap and NASA's Earth API) to learn about the ways to securely interact with these third-party programs.*
+*In this module, you will learn about APIs, the "Application Programming Interfaces" that act like the 'handshake' between a web site's frontend and backend, with specific focus on RESTful APIs. You will first create a simple local API with a .json file and then work with several of NASA's APIs to learn about the ways to securely interact with third-party interfaces.*
 
 ## Learning objectives
 
@@ -30,8 +30,9 @@
 3. Build a basic API locally
 4. Authentication strategies
 5. Query your first API to get an image of the earth from NASA
-6. Query the OpenWeatherMap API with query parameters
-7. Using libraries to help with your queries (axios)
+6. Work with query parameters to see if a meteor is approaching the Earth
+7. Handle responses, including errors by understanding HTTP codew
+8. Using libraries to help with your queries (axios)
 8. Other types of APIs you might encounter
 
 ## Chunk your content into subtasks
