@@ -1,32 +1,38 @@
 # Title
 
-*Add the working title [(Title guidance)](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-title)*
+*Explore the Earth with RESTful APIs *
 
 ## Role(s)
 
-- *Add the role(s)* [Role guidance](https://review.docs.microsoft.com/en-us/new-hope/information-architecture/metadata/taxonomies?branch=master#role)
-- *This will probably include "student"*
+- *student*
 
 ## Level
 
-- *Add the level*  [Level guidance](https://review.docs.microsoft.com/en-us/new-hope/information-architecture/metadata/taxonomies?branch=master#level)
-- *This will probably be "beginner"*
+- *beginner*
 
 ## Product(s)
 
-- *Add the product(s)*
+- *Visual Studio Code*
 
 ## Prerequisites
 
-- *List the prerequisites [(Prerequisite guidance)](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-prerequisites)*
+- *Development Environment with VS Code Installed*
+- *Internet connectivity*
 
 ## Summary
 
-*Add the summary [(Summary guidance)](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-introductory-summaries)*
+*In this module, you will learn about APIs, the "Application Programming Interfaces" that act like the 'handshake' between a web site's frontend and backend, with specific focus on RESTful APIs. You will first create a simple local API with a .json file and then query two external APIs (OpenWeatherMap and NASA's Earth API) to learn about the ways to securely interact with these third-party programs.*
 
 ## Learning objectives
 
-1. *Add numbered Learning Objectives [(Learning objective guidance)](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-learning-objectives)*
+1. REpresentational State Transfer - a REST primer
+2. Learn about the ways to connect to a RESTful API
+3. Build a basic API locally
+4. Authentication strategies
+5. Query your first API to get an image of the earth from NASA
+6. Query the OpenWeatherMap API with query parameters
+7. Using libraries to help with your queries (axios)
+8. Other types of APIs you might encounter
 
 ## Chunk your content into subtasks
 
