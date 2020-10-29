@@ -1,6 +1,6 @@
 # Title
 
-*Explore the Earth with RESTful APIs *
+*Explore The Art World with RESTful APIs*
 
 ## Role(s)
 
@@ -21,7 +21,7 @@
 
 ## Summary
 
-*In this module, you will learn about APIs, the "Application Programming Interfaces" that act like the 'handshake' between a web site's frontend and backend, with specific focus on RESTful APIs. You will first create a simple local API with a .json file and then work with several of NASA's APIs to learn about the ways to securely interact with third-party interfaces.*
+*In this module, you will learn about APIs, the "Application Programming Interfaces" that act like the 'handshake' between a web site's frontend and backend, with specific focus on RESTful APIs. You will first create a simple local API with a .json file and then work with APIs from the the Victoria and Albert Museum and the Cooper Hewitt Museum to learn about the ways to securely interact with third-party interfaces.*
 
 ## Learning objectives
 
@@ -29,21 +29,31 @@
 2. Learn about the ways to connect to a RESTful API
 3. Build a basic API locally
 4. Authentication strategies
-5. Query your first API to get an image of the earth from NASA
-6. Work with query parameters to see if a meteor is approaching the Earth
-7. Handle responses, including errors by understanding HTTP codew
+5. Query your first API to search for objects at the Victoria and Albert
+6. Work with tokens and query parameters to find an unusual design object at the Cooper Hewitt Museum
+7. Handle responses, including errors by understanding HTTP codes
 8. Using libraries to help with your queries (axios)
-8. Other types of APIs you might encounter
+9. Other types of APIs you might encounter (The Met's CSV strategy)
 
 ## Chunk your content into subtasks
 
-Identify the subtasks of *module title*
+Identify the subtasks of *Explore The Art World with RESTful APIs*
 
-| Subtask | What part of the introduction scenario does this subtask satisfy? | How will you assess it: **Exercise or Knowledge check**? | Which learning objective(s) does this help meet? | Does the subtask have enough learning content to justify an entire unit? If not, which other subtask will you combine it with? |
-| ---- | ---- | ---- | ---- | ---- |
-| TODO | TODO | TODO | TODO | TODO |
-| TODO | TODO | TODO | TODO | TODO |
-| TODO | TODO | TODO | TODO | TODO |
+
+
+
+| Subtask | Covers learning objective # | How will you assess it: **Exercise or Knowledge check**? |
+| ---- | ---- | ---- |
+| Introduction: What is an API | 1 | -- |
+| Scaffold a local API structure | 2 | exercise |
+| Connecting to a 3rd party API | 3 | knowledge check |
+| Query the V&A | 4 | exercise |
+| Tokens and Query Parameters | 5 | -- |
+| Query the Cooper Hewitt | 6 | exercise |
+| Handling responses | 7 | -- |
+| Using libraries | 8 | knowledge check |
+| More APIs | 9 | -- |
+| Knowledge check | -- | -- |
 
 ## Outline the units
 
