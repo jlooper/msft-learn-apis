@@ -47,8 +47,8 @@ Identify the subtasks of *Explore The Art World with RESTful APIs*
 | Introduction: What is an API | 1 | -- |
 | Scaffold a local API structure | 2 | exercise |
 | Connecting to a 3rd party API | 3 | knowledge check |
-| Query the V&A | 4 | exercise |
-| Tokens and Query Parameters | 5 | -- |
+| Query the V&A using a Query Parameter | 4 | exercise |
+| Authentication strategies | 5 | -- |
 | Query the Cooper Hewitt | 6 | exercise |
 | Handling responses | 7 | -- |
 | Using libraries | 8 | knowledge check |
@@ -61,45 +61,25 @@ Identify the subtasks of *Explore The Art World with RESTful APIs*
 
 1. **Introduction**
 
-    Provide a scenario of a real-world job-task that shows how the technology is used in practice:
-
-    *Add your scenario [(Scenario guidance)](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-scenarios)*
+You're a web developer who needs to learn how to use third-party content within your app. Specifically, you need to create a search for an art museum's database to discover new art. Do you have to create it yourself from scratch, or can you use an API to make that handshake between your frontend and backend?
 
 1. **Learning-content unit title**
 
     List the content that will enable the learner to *subtask*:
 
-    - Enabling objective
-        - Information needed to accomplish the enabling objective
-        - Information needed to accomplish the enabling objective
-    - Enabling objective
-        - Information needed to accomplish the enabling objective
-        - Information needed to accomplish the enabling objective
-    - Enabling objective
-        - Information needed to accomplish the enabling objective
-        - Information needed to accomplish the enabling objective
-
-    **Knowledge check**
-
-    What types of questions will test *learning objective*? *[(Knowledge check guidance)](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-knowledge-check)*
-
-    - Question type
-    - Question type
-
-1. **Exercise - exercise unit title**
-
-    List the steps which apply the learning content from previous unit:
-
-    1. Step
-    1. Step
-    1. Step
-
-1. **Summary**
-
-    How did you solve the problem in the initial scenario with the knowledge learned in the module? 
+    - What is an API
+        Define the concept, providing examples of how they can be used
+    - Scaffold a local API structure
+        Using a basic .json file and JSON-server, create a mockup of an API to learn how data is structured to be retrieved (https://codingthesmartway.com/create-a-rest-api-with-json-server/)
+    - Connecting to a 3rd party API
+        You're ready to try your hand at discovering art! Query the Victoria and Albert's open API to find a painting of a dog https://www.vam.ac.uk/api/json/museumobject/search?q=paintings+of+dogs
+    - Deepening your understanding of the 'handshake' between the frontend and backend by using Authentication
+        Some APIs require special authentication. Learn about getting keys and using them in headers, searching for designs with cats in the Cooper Hewitt's API
+    - Sometimes the response isn't what you expect. Learn about status codes and how to handle them (https://http.cat/ via Tomomi)
+    - There are some helpers to query APIs, so let's learn about them for the various languages:
+       Axios for JavaScript
+       Requests for Python
+    - Not all APIs are built with a nice JSON return. Discover other types of API structures like XML, SOAP, and even flat .csv files. Experiment with querying the Metropolitan Museum's .csv 'API'.
     
-    *Add your summary [(Summary guidance)](https://review.docs.microsoft.com/en-us/learn-docs/docs/id-guidance-module-summary-unit)*
-
-## Notes
-
-Note any additional information that may be beneficial to this content such as links, reference material, etc.
+   
+ Notes: we have written permission from the Cooper Hewitt to use their API, the Metropolitan is open to commercial use, and we are checking with the V&A.
