@@ -29,7 +29,7 @@
 2. Learn about the ways to connect to a RESTful API
 3. Build a basic API locally
 4. Authentication strategies
-5. Query your first API to search for objects at the Victoria and Albert
+5. Query your first API to search for objects at Metropolitan Museum
 6. Work with tokens and query parameters to find an unusual design object at the Cooper Hewitt Museum
 7. Handle responses, including errors by understanding HTTP codes
 8. Using libraries to help with your queries (axios)
@@ -42,18 +42,18 @@ Identify the subtasks of *Explore The Art World with RESTful APIs*
 
 
 
-| Subtask | Covers learning objective # | How will you assess it: **Exercise or Knowledge check**? |
-| ---- | ---- | ---- |
-| Introduction: What is an API | 1 | -- |
-| Scaffold a local API structure | 2 | exercise |
-| Connecting to a 3rd party API | 3 | knowledge check |
-| Query the V&A using a Query Parameter | 4 | exercise |
-| Authentication strategies | 5 | -- |
-| Query the Cooper Hewitt | 6 | exercise |
-| Handling responses | 7 | -- |
-| Using libraries | 8 | knowledge check |
-| More APIs | 9 | -- |
-| Knowledge check | -- | -- |
+| Subtask                               | Covers learning objective # | How will you assess it: **Exercise or Knowledge check**? |
+| ------------------------------------- | --------------------------- | -------------------------------------------------------- |
+| Introduction: What is an API          | 1                           | --                                                       |
+| Scaffold a local API structure        | 2                           | exercise                                                 |
+| Connecting to a 3rd party API         | 3                           | knowledge check                                          |
+| Query the Met API using a Query Parameter | 4                           | exercise                                                 |
+| Authentication strategies             | 5                           | --                                                       |
+| Query the Cooper Hewitt               | 6                           | exercise                                                 |
+| Handling responses                    | 7                           | --                                                       |
+| Using libraries                       | 8                           | knowledge check                                          |
+| More APIs                             | 9                           | --                                                       |
+| Knowledge check                       | --                          | --                                                       |
 
 ## Outline the units
 

@@ -1,0 +1,32 @@
+### YamlMime:Module
+uid: ""
+metadata:
+  title: Explore the art world with RESTful APIs
+  description: Learn about how to build a basic API, how to query APIs, and authentication strategies in Python and JavaScript while discovering unique art from museum APIs.
+  ms.date: 
+  author: jlooper
+  ms.author: shanama
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: Explore the art world with RESTful APIs
+summary: Learn about how to build a basic API, how to query APIs, and authentication strategies in Python and JavaScript while discovering unique art from museum APIs.
+abstract:  |
+  In this module, you will:
+- learn about RESTful APIs
+- build your own simple API
+- various strategies to connect to external APIs
+- how to query two different museum APIs
+prerequisites: | 
+- an internet-connected browser such as Edge
+iconUrl: /learn/achievements/generic-badge.svg # TODO change
+levels:
+- beginner
+roles:
+- developer
+- student
+products:
+- "vs-code"
+units:
+- ""
+badge:
+  uid: ""
