@@ -14,4 +14,4 @@ In this module, you will learn about one type of API, a RESTful API, by building
 
 ## Prerequisites
 
-You will need an internet-connected web browser such as Edge.
+You will need an internet-connected web browser such as Edge, and NPM and Node.js installed locally.

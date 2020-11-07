@@ -18,6 +18,8 @@ abstract:  |
 - how to query two different museum APIs
 prerequisites: | 
 - an internet-connected browser such as Edge
+- Node.js installed locally
+- NPM installed locally
 iconUrl: /learn/achievements/generic-badge.svg # TODO change
 levels:
 - beginner
