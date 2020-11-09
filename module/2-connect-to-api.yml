@@ -15,45 +15,33 @@ content: |
 quiz:
   title: Check your knowledge
   questions:
-  - content: "Question1"
+  - content: "If an API is like a sink, the user is the data stream"
     choices:
-    - content: "Answer1"
+    - content: "True"
       isCorrect: false
-      explanation: "Explanation1"
-    - content: "Answer2"
-      isCorrect: false
-      explanation: "Explanation2"
-    - content: "Answer3"
-      isCorrect: false
-      explanation: "Explanation3"
-    - content: "Answer4"
+      explanation: "If an API is the sink, the data stream is actually the pipes in the wall"
+    - content: "False"
       isCorrect: true
-      explanation: "Explanation4"
-  - content: "Question2"
+      explanation: "If an API is the sink, the user consumes the output of pipes in the wall by using the sink mechanism"   
+  - content: "API stands for"
     choices:
-    - content: "Answer1"
+    - content: "Application Programming Intelligence"
       isCorrect: false
-      explanation: "Explanation1"
-    - content: "Answer2"
-      isCorrect: false
-      explanation: "Explanation2"
-    - content: "Answer3"
-      isCorrect: false
-      explanation: "Explanation3"
-    - content: "Answer4"
+      explanation: "Almost, not quite!"
+    - content: "Application Programming Interface"
       isCorrect: true
-      explanation: "Explanation4"
-  - content: "Question3"
+      explanation: "This is correct, it is an interface that exists to link applications programmatically"
+    - content: "Auto Project Interface"
+      isCorrect: false
+      explanation: "Try again"
+    - content: "Amazing Programming Intellectual"
+      isCorrect: false
+      explanation: "That's not quite right"
+  - content: "It's necessary to understand the entire architecture of an application to use its API"
     choices:
-    - content: "Answer1"
+    - content: "True"
       isCorrect: false
-      explanation: "Explanation1"
-    - content: "Answer2"
-      isCorrect: false
-      explanation: "Explanation2"
-    - content: "Answer3"
-      isCorrect: false
-      explanation: "Explanation3"
-    - content: "Answer4"
+      explanation: "Try again; the API provides a layer between the user and the backend system for a good reason"
+    - content: "False"
       isCorrect: true
-      explanation: "Explanation4"
+      explanation: "Correct! Part of the beauty of using APIs is you don't have to have a deep understanding of data structures. Of course, this means that good API design is very important!"

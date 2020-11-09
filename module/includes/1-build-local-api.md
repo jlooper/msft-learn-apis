@@ -20,7 +20,7 @@ Then, using a text editor or Visual Studio Code, create a file on your local com
   ]
 }
 ```
-This JSON file is a mocked version of a database. You can use `json-server` to query this data, just like you would an API:
+This JSON file is a mocked version of a database. You can use `json-server` to query this data.
 
 In your terminal, navigate to the location where you added `db.json` and type `json-server --watch db.json`. The server will run on port 3000 and you can query it via a specially-formatted URL. Try typing in a browser URL bar: `http://localhost:3000/objects`. You'll see all the objects in your database listed in neat JSON format.
 
