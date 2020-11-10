@@ -24,4 +24,4 @@ While keys are an easy way to form a handshake between your code and an API, the
 
 > It's a good idea to store your API keys in the cloud and access them using a function that calls an environment variable, but that's out of scope for this tutorial!
 
-While this topic can easily get very complicated, the most common way to authenticate to use an API is by using an API key. In the next section, you will  
+While this topic can easily get very complicated, the most common way to authenticate to use an API is by using an API key. In the next section, you will query an API that requires an API key: the Smithsonian's Cooper Hewitt's National Design Museum.
