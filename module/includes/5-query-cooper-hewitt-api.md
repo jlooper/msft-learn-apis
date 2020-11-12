@@ -15,6 +15,3 @@ Let's say you are interested in Art Nouveau, and you'd like to see what objects 
 To find the Art Nouveau objects, query the API thus: `https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.periods.getList&access_token=<your-token>&page=1&per_page=100`. This query specifies that you need to append the page you will retrieve and the number of elements returned per page.
 
 By querying the API, a URL is returned in the response with a list of Art Nouveau objects available for perusal (including some famous Mucha posters): `https://collection.cooperhewitt.org/periods/35417231/`. Take a look. What other eras can you discover by querying this API?
-
-
-
