@@ -38,7 +38,7 @@ axios(config)
 
 import requests
 
-url = "https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&query=fan&page=1&per_page=100&access_token=5a3c42c653014805fd1e06902631596f"
+url = "https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.search.objects&query=fan&page=1&per_page=100&access_token=<yourtoken>"
 
 payload = {}
 headers= {}
