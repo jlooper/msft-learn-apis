@@ -24,4 +24,8 @@ While keys are an easy way to form a handshake between your code and an API, the
 
 > It's a good idea to store your API keys in the cloud and access them using a function that calls an environment variable, but that's out of scope for this tutorial!
 
-While this topic can easily get very complicated, the most common way to authenticate to use an API is by using an API key. In the next section, you will query an API that requires an API key: the Smithsonian's Cooper Hewitt's National Design Museum.
+## OAuth
+
+While this topic can easily get very complicated, the most common way to authenticate to use an API is by using an API key. However, yet another strategy to authenticate and use an API is using [OAuth](https://oauth.net/2/). OAuth, particularly version 2, provides a more fine-grained authentication strategy. The user is directed to the API's site and then completes one of many flows allowed by OAuth to enable access. Although many scenarios are possible, OAuth basically enables the creation of an API Key and uses that to authenticate a token that allows limited access to an API for limited operations. In this way, a user can use an [access token](https://www.oauth.com/oauth2-servers/access-tokens/) in web calls to ensure access to various parts of the API, for specific uses and specific time periods.
+
+In the next section, you will query an API that uses OAuth (version 2): the Smithsonian's Cooper Hewitt's National Design Museum.

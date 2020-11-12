@@ -1,4 +1,4 @@
-# Building a local API
+# Exercise - Building a local API
 
 Before any API is deployed to the cloud, it probably is developed locally by a developer like you. You can create an API right on your local computer (of course, nobody externally will be able to use it, but that's not its purpose).
 
