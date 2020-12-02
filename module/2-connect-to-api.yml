@@ -15,14 +15,17 @@ content: |
 quiz:
   title: Check your knowledge
   questions:
-  - content: "If an API is like a sink, the user is the data stream"
+  - content: "Assuming the API as a sink metaphor, which of these statements is true?"
     choices:
-    - content: "True"
+    - content: "The data is the faucet"
       isCorrect: false
       explanation: "If an API is the sink, the data stream is actually the pipes in the wall"
-    - content: "False"
+    - content: "The data is the drain"
+      isCorrect: false
+      explanation: "If an API is the sink, the data stream comes via pipes"
+    - content: "The data is in the pipes"
       isCorrect: true
-      explanation: "If an API is the sink, the user consumes the output of pipes in the wall by using the sink mechanism"   
+      explanation: "If an API is the sink, the user consumes the output of pipes in the wall by leveraging the sink mechanism"   
   - content: "API stands for"
     choices:
     - content: "Application Programming Intelligence"

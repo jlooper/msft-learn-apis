@@ -2,9 +2,11 @@
 
 Now that you have discovered some interesting collections at the Metropolitan Museum, let's look at a different museum API, that of the Cooper Hewitt. This museum is part of the Smithsonian, and is the US's National Design Museum. Its collection is comprised of interesting and notable design, from Dyson fans to antique shoes.
 
-To access this API, you need an access token and an API key that acts as its authenticator. Go to the [API homepage](https://collection.cooperhewitt.org/api/) and sign up for a key. To do this, create an account. Once your account is created, you can create an access token for yourself.
+To access this API, you need either an access token or both an access token and an API key that acts as its authenticator. This API allows a user to visit an endpoint for individual visits by using a one-off access token, but to query the API with code, you need both elements.
 
-> Why create an access token? This API uses [OAuth (version 2)](https://collection.cooperhewitt.org/api/oauth2/), which requires tokens to monitor and limit access to the API. Once you have a token created, you can create an API key. This API key works with the access token to ensure that you have the authority to access the API in the way that you have set up the token.
+Go to the [API homepage](https://collection.cooperhewitt.org/api/) and create an account. Once your account is created, you can create a key and an access token for yourself. Save the token that is generated in a text file somewhere safe on your local computer.
+
+> Why create an access token AND a key? This API uses [OAuth (version 2)](https://collection.cooperhewitt.org/api/oauth2/), which requires tokens to monitor and limit access to the API. The API key works with the access token to ensure that you have the authority to access the API in the way that you have set up the token.
 
 Once you have created a token and authenticated it with an API key, you can start sending that token in the URL of a test API call. Let's see what we can find in the Cooper Hewitt Design Museum!
 

@@ -28,4 +28,6 @@ While keys are an easy way to form a handshake between your code and an API, the
 
 While this topic can easily get very complicated, the most common way to authenticate to use an API is by using an API key. However, yet another strategy to authenticate and use an API is using [OAuth](https://oauth.net/2/). OAuth, particularly version 2, provides a more fine-grained authentication strategy. The user is directed to the API's site and then completes one of many flows allowed by OAuth to enable access. Although many scenarios are possible, OAuth basically enables the creation of an API Key and uses that to authenticate a token that allows limited access to an API for limited operations. In this way, a user can use an [access token](https://www.oauth.com/oauth2-servers/access-tokens/) in web calls to ensure access to various parts of the API, for specific uses and specific time periods.
 
+API keys are different from access tokens in that keys provide authorization but not authentication. Access tokens provide a more secure way to access sensitive endpoints.  
+
 In the next section, you will query an API that uses OAuth (version 2): the Smithsonian's Cooper Hewitt's National Design Museum.

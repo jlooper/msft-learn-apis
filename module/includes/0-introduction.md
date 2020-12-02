@@ -1,5 +1,7 @@
 # Introduction
 
+You're a web developer with a passion for the art world. You'd love to create a web page to showcase examples of art through the ages, but you're not sure what the best way to get images of art into your web page. That's where APIs come in! In this module you'll learn the basics of APIs that help you get images of artwork made public by museums around the world.
+
 What is an API? It seems like this is a term that gets used for many different things. Starting from a definition of the acronym, API stands for 'Application Programming Interface'. It's easiest to think of an API as a set of rules, or a codified handshake, between systems. 
 
 Alternately, you can think about an API as a 'kitchen sink', as Burke Holland says. A sink is an API between you, the consumer of water, and the pipes which deliver it to you. You don't need to know much about the pipe configuration, just that when you turn a handle, water comes out and you can use it. The API is a convenient place to interface between the user and the product. 

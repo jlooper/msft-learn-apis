@@ -4,7 +4,7 @@ In many situations, it's important to know the status codes that are sent back b
 
 Try, for example, a query like this in your browser: `https://api.collection.cooperhewitt.org/rest/?method=cooperhewitt.periods.getList&access_token=xxxxx&page=1&per_page=100`.
 
-The API will return a code of `400`: this is a 'bad request' error as your access token is invalid.
+The API will return a code of `400`: this is a 'bad request' error as the access token in the above URL is invalid.
 
 Common access codes you might encounter include:
 
