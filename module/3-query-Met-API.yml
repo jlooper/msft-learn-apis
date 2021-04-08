@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: 
+uid: learn.test.3-query-Met-API
 metadata:
-  title: 
-  description: 
+  title: query met api
+  description: desc
   ms.date: 
   author: jlooper
   ms.author: shanama # Leave this as shanama unless you want content bugs assigned directly to you

@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: 
+uid: learn.test.2-connect-to-api
 metadata:
-  title: 
-  description: 
+  title: connect to api
+  description: desc
   ms.date: 
   author: jlooper
   ms.author: shanama # Leave this as shanama unless you want content bugs assigned directly to you
