@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: 
+uid: learn.test.0-introduction
 metadata:
   title: Introduction
   description: Introduction
@@ -9,6 +9,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: explore-rest-apis
 title: Introduction
-durationInMinutes:
+durationInMinutes: 1
 content: |
   [!include[](includes/0-introduction.md)]

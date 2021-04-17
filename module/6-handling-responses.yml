@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: 
+uid: learn.test.6-handling-responses
 metadata:
-  title: 
-  description: 
+  title: Handling responses
+  description: desc
   ms.date: 
   author: jlooper
   ms.author: shanama # Leave this as shanama unless you want content bugs assigned directly to you

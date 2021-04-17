@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: ""
+uid: "learn.test"
 metadata:
   title: Explore the art world with RESTful APIs
   description: Learn about how to build a basic API, how to query APIs, and authentication strategies in Python and JavaScript while discovering unique art from museum APIs.
@@ -12,14 +12,14 @@ title: Explore the art world with RESTful APIs
 summary: Learn about how to build a basic API, how to query APIs, and authentication strategies in Python and JavaScript while discovering unique art from museum APIs.
 abstract:  |
   In this module, you will:
-- learn about RESTful APIs
-- build your own simple API
-- various strategies to connect to external APIs
-- how to query two different museum APIs
+  - learn about RESTful APIs
+  - build your own simple API
+  - various strategies to connect to external APIs
+  - how to query two different museum APIs
 prerequisites: | 
-- an internet-connected browser such as Edge
-- Node.js installed locally
-- NPM installed locally
+  - an internet-connected browser such as Edge
+  - Node.js installed locally
+  - NPM installed locally
 iconUrl: /learn/achievements/generic-badge.svg # TODO change
 levels:
 - beginner
@@ -29,6 +29,14 @@ roles:
 products:
 - "vs-code"
 units:
-- ""
+- learn.test.0-introduction
+- learn.test.1-build-local-api
+- learn.test.2-connect-to-api
+- learn.test.3-query-Met-API
+- learn.test.4-authentication-strategies
+- learn.test.5-query-cooper-hewitt-api
+- learn.test.6-handling-responses
+- learn.test.7-using-libraries
+- learn.test.8-summary
 badge:
   uid: ""
